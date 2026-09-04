@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Data>
+  <partition>
+    <name>BOOT_PARA</name>
+    <begin>0x0000000000008000</begin>
+    <length>0x0000000000100000</length>
+    <size>1 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>boot_para.bin</filename>
+  </partition>
+  <partition>
+    <name>PARA</name>
+    <begin>0x0000000000108000</begin>
+    <length>0x0000000000080000</length>
+    <size>512 KB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>para.bin</filename>
+  </partition>
+  <partition>
+    <name>EXPDB</name>
+    <begin>0x0000000000188000</begin>
+    <length>0x0000000001400000</length>
+    <size>20 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>expdb.bin</filename>
+  </partition>
+  <partition>
+    <name>FRP</name>
+    <begin>0x0000000001588000</begin>
+    <length>0x0000000000100000</length>
+    <size>1 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>frp.bin</filename>
+  </partition>
+  <partition>
+    <name>NVCFG</name>
+    <begin>0x0000000001688000</begin>
+    <length>0x0000000002000000</length>
+    <size>32 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>nvcfg.bin</filename>
+  </partition>
+  <partition>
+    <name>NVDATA</name>
+    <begin>0x0000000003688000</begin>
+    <length>0x0000000004000000</length>
+    <size>64 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>nvdata.bin</filename>
+  </partition>
+  <partition>
+    <name>MD_UDC</name>
+    <begin>0x0000000007688000</begin>
+    <length>0x000000000169a000</length>
+    <size>22.6 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>md_udc.bin</filename>
+  </partition>
+  <partition>
+    <name>METADATA</name>
+    <begin>0x0000000008d22000</begin>
+    <length>0x0000000002000000</length>
+    <size>32 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>metadata.bin</filename>
+  </partition>
+  <partition>
+    <name>PROTECT1</name>
+    <begin>0x000000000ad22000</begin>
+    <length>0x0000000000800000</length>
+    <size>8 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>protect1.bin</filename>
+  </partition>
+  <partition>
+    <name>PROTECT2</name>
+    <begin>0x000000000b522000</begin>
+    <length>0x0000000000ade000</length>
+    <size>10.87 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>protect2.bin</filename>
+  </partition>
+  <partition>
+    <name>SECCFG</name>
+    <begin>0x000000000c000000</begin>
+    <length>0x0000000000800000</length>
+    <size>8 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>seccfg.bin</filename>
+  </partition>
+  <partition>
+    <name>SEC1</name>
+    <begin>0x000000000c800000</begin>
+    <length>0x0000000000200000</length>
+    <size>2 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>sec1.bin</filename>
+  </partition>
+  <partition>
+    <name>PROINFO</name>
+    <begin>0x000000000ca00000</begin>
+    <length>0x0000000000300000</length>
+    <size>3 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>proinfo.bin</filename>
+  </partition>
+  <partition>
+    <name>NVRAM</name>
+    <begin>0x000000000cd00000</begin>
+    <length>0x0000000004000000</length>
+    <size>64 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>nvram.bin</filename>
+  </partition>
+  <partition>
+    <name>LOGO</name>
+    <begin>0x0000000010d00000</begin>
+    <length>0x0000000000b00000</length>
+    <size>11 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>logo.bin</filename>
+  </partition>
+  <partition>
+    <name>MD1IMG_A</name>
+    <begin>0x0000000011800000</begin>
+    <length>0x0000000006400000</length>
+    <size>100 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>md1img_a.bin</filename>
+  </partition>
+  <partition>
+    <name>SPMFW_A</name>
+    <begin>0x0000000017c00000</begin>
+    <length>0x0000000000100000</length>
+    <size>1 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>spmfw_a.bin</filename>
+  </partition>
+  <partition>
+    <name>SCP_A</name>
+    <begin>0x0000000017d00000</begin>
+    <length>0x0000000000100000</length>
+    <size>1 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>scp_a.bin</filename>
+  </partition>
+  <partition>
+    <name>SSPM_A</name>
+    <begin>0x0000000017e00000</begin>
+    <length>0x0000000000100000</length>
+    <size>1 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>sspm_a.bin</filename>
+  </partition>
+  <partition>
+    <name>GZ_A</name>
+    <begin>0x0000000017f00000</begin>
+    <length>0x0000000001000000</length>
+    <size>16 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>gz_a.bin</filename>
+  </partition>
+  <partition>
+    <name>LK_A</name>
+    <begin>0x0000000018f00000</begin>
+    <length>0x0000000000100000</length>
+    <size>1 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>lk_a.bin</filename>
+  </partition>
+  <partition>
+    <name>ITEMS</name>
+    <begin>0x0000000019000000</begin>
+    <length>0x0000000000200000</length>
+    <size>2 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>items.bin</filename>
+  </partition>
+  <partition>
+    <name>BOOT_A</name>
+    <begin>0x0000000019200000</begin>
+    <length>0x0000000002000000</length>
+    <size>32 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>boot_a.bin</filename>
+  </partition>
+  <partition>
+    <name>VENDOR_BOOT_A</name>
+    <begin>0x000000001b200000</begin>
+    <length>0x0000000004000000</length>
+    <size>64 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>vendor_boot_a.bin</filename>
+  </partition>
+  <partition>
+    <name>INIT_BOOT_A</name>
+    <begin>0x000000001f200000</begin>
+    <length>0x0000000000800000</length>
+    <size>8 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>init_boot_a.bin</filename>
+  </partition>
+  <partition>
+    <name>DTBO_A</name>
+    <begin>0x000000001fa00000</begin>
+    <length>0x0000000000800000</length>
+    <size>8 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>dtbo_a.bin</filename>
+  </partition>
+  <partition>
+    <name>TEE_A</name>
+    <begin>0x0000000020200000</begin>
+    <length>0x0000000000600000</length>
+    <size>6 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>tee_a.bin</filename>
+  </partition>
+  <partition>
+    <name>VBMETA_A</name>
+    <begin>0x0000000020800000</begin>
+    <length>0x0000000000800000</length>
+    <size>8 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>vbmeta_a.bin</filename>
+  </partition>
+  <partition>
+    <name>VBMETA_SYSTEM_A</name>
+    <begin>0x0000000021000000</begin>
+    <length>0x0000000000800000</length>
+    <size>8 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>vbmeta_system_a.bin</filename>
+  </partition>
+  <partition>
+    <name>VBMETA_VENDOR_A</name>
+    <begin>0x0000000021800000</begin>
+    <length>0x0000000000800000</length>
+    <size>8 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>vbmeta_vendor_a.bin</filename>
+  </partition>
+  <partition>
+    <name>MD1IMG_B</name>
+    <begin>0x0000000022000000</begin>
+    <length>0x0000000006400000</length>
+    <size>100 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>md1img_b.bin</filename>
+  </partition>
+  <partition>
+    <name>SPMFW_B</name>
+    <begin>0x0000000028400000</begin>
+    <length>0x0000000000100000</length>
+    <size>1 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>spmfw_b.bin</filename>
+  </partition>
+  <partition>
+    <name>SCP_B</name>
+    <begin>0x0000000028500000</begin>
+    <length>0x0000000000100000</length>
+    <size>1 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>scp_b.bin</filename>
+  </partition>
+  <partition>
+    <name>SSPM_B</name>
+    <begin>0x0000000028600000</begin>
+    <length>0x0000000000100000</length>
+    <size>1 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>sspm_b.bin</filename>
+  </partition>
+  <partition>
+    <name>GZ_B</name>
+    <begin>0x0000000028700000</begin>
+    <length>0x0000000001000000</length>
+    <size>16 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>gz_b.bin</filename>
+  </partition>
+  <partition>
+    <name>LK_B</name>
+    <begin>0x0000000029700000</begin>
+    <length>0x0000000000100000</length>
+    <size>1 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>lk_b.bin</filename>
+  </partition>
+  <partition>
+    <name>BOOT_B</name>
+    <begin>0x0000000029800000</begin>
+    <length>0x0000000002000000</length>
+    <size>32 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>boot_b.bin</filename>
+  </partition>
+  <partition>
+    <name>VENDOR_BOOT_B</name>
+    <begin>0x000000002b800000</begin>
+    <length>0x0000000004000000</length>
+    <size>64 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>vendor_boot_b.bin</filename>
+  </partition>
+  <partition>
+    <name>INIT_BOOT_B</name>
+    <begin>0x000000002f800000</begin>
+    <length>0x0000000000800000</length>
+    <size>8 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>init_boot_b.bin</filename>
+  </partition>
+  <partition>
+    <name>DTBO_B</name>
+    <begin>0x0000000030000000</begin>
+    <length>0x0000000000800000</length>
+    <size>8 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>dtbo_b.bin</filename>
+  </partition>
+  <partition>
+    <name>TEE_B</name>
+    <begin>0x0000000030800000</begin>
+    <length>0x0000000000800000</length>
+    <size>8 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>tee_b.bin</filename>
+  </partition>
+  <partition>
+    <name>SUPER</name>
+    <begin>0x0000000031000000</begin>
+    <length>0x0000000140000000</length>
+    <size>5 GB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>super.bin</filename>
+  </partition>
+  <partition>
+    <name>VBMETA_B</name>
+    <begin>0x0000000171000000</begin>
+    <length>0x0000000000800000</length>
+    <size>8 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>vbmeta_b.bin</filename>
+  </partition>
+  <partition>
+    <name>VBMETA_SYSTEM_B</name>
+    <begin>0x0000000171800000</begin>
+    <length>0x0000000000800000</length>
+    <size>8 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>vbmeta_system_b.bin</filename>
+  </partition>
+  <partition>
+    <name>VBMETA_VENDOR_B</name>
+    <begin>0x0000000172000000</begin>
+    <length>0x0000000000800000</length>
+    <size>8 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>vbmeta_vendor_b.bin</filename>
+  </partition>
+  <partition>
+    <name>OTP</name>
+    <begin>0x00000007444f8000</begin>
+    <length>0x0000000002b00000</length>
+    <size>43 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>otp.bin</filename>
+  </partition>
+  <partition>
+    <name>FLASHINFO</name>
+    <begin>0x0000000746ff8000</begin>
+    <length>0x0000000001000000</length>
+    <size>16 MB</size>
+    <type>EFI_BASIC_DATA</type>
+    <filename>flashinfo.bin</filename>
+  </partition>
+</Data>
